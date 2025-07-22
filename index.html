@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main">
+        <h1 class="main-heading">Temprature Converter</h1>
+        <div class="input-data">
+            <div class="sub-contient">
+                <p class="para">Celsius</p>
+                <div class="small-contient">
+                    <input class="input" type="number" placeholder="Type..." name="searchbar" id="celsius-data"/>
+                    <button type="submit" id="submit-celsius">Convert</button>
+                    <button type="submit" id="refresh-celsius">Refresh</button>
+                </div>
+            </div>
+            <div class="sub-contient">
+                <p class="para">Fahrenheit</p>
+                <div class="small-contient">
+                    <input class="input" type="number" placeholder="Type..." name="searchbar" id="fahrenheit-data"/>      
+                    <button type="submit" id="submit-fahrenheit">Convert</button>
+                    <button type="submit" id="refresh-fahrenheit">Refresh</button>
+                </div>
+            </div>
+            <div class="sub-contient">
+                <p class="para">Kelvin</p>
+                <div class="small-contient">
+                    <input class="input" type="number" placeholder="Type..." name="searchbar" id="kelvin-data"/>
+                    <button type="submit" id="submit-kelvin">Convert</button>
+                    <button type="submit" id="refresh-kelvin">Refresh</button>
+                </div>
+            </div>
+        </div>
+        <div class="show">
+            <div class="sub-show">
+                <h3 class="heading">Temprature In Celsius</h3>
+                <div class="show-data" id="show-celsius">0</div>
+            </div>
+            <div class="sub-show">
+                <h3 class="heading">Temprature In Fahrenheit</h3>
+                <div class="show-data" id="show-fahrenheit">0</div>
+            </div>
+            <div class="sub-show">
+                <h3 class="heading">Temprature In Kelvin</h3>
+                <div class="show-data" id="show-kelvin">0</div>
+            </div>
+        </div>
+        <div class="btn-class">
+            <button type="submit" id="refresh">Refresh</button>
+        </div>
+    </main>
+    <script src="java.js"></script>
+</body>
+</html>
